@@ -1,34 +1,27 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
    <head>
-      <title>File Metadata</title>
+      <title>File Metadata Microservice</title>
       <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-      <link href="/public/style.css" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
    </head>
 
    <body>
-      <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
-
-        <h3>Usage:</h3>
-        <p>
-          Please Upload a File ...
-        </p>
-        <div class="view">
-          <h4 id="output"></h4>
-          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+    <header>
+        <h1>File Metadata Microservice</h1>
+      <hr />
+    </header>
+    <main class="container">
+      <div class="view">
+        <h4 id="output"></h4>
+        <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+          <fieldset>
+            <legend>Upload a file</legend>
             <input id="inputfield" type="file" name="upfile">
             <input id="button" type="submit" value="Upload">
-          </form>
-        </div>
+          </fieldset>
+        </form>
       </div>
-      <div class="footer">
-        <p>
-          by 
-          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
-        </p>
-      </div>
-   </body>
+   </main>
 </html>
