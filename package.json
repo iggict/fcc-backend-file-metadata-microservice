@@ -1,0 +1,25 @@
+{
+  "author": "iggict",
+  "name": "fcc-backend-file-metadata-microservice",
+  "version": "0.0.1",
+  "description": "FreeCodeCamp backend challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iggict/fcc-backend-file-metadata-microservice"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "freecodecamp"
+  ],
+  "license": "MIT"
+}
